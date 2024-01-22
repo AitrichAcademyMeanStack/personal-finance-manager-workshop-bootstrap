@@ -1,6 +1,7 @@
 
 .full{ height:760px;
-    background-color:#eee2f3 
+    /* background-color:#eee2f3  */
+    background-image:url('../images/bg.png') ;
   }
   .sidebar {
     height: 660px;
@@ -20,9 +21,46 @@
     border-radius:20px;
   }
 .avtr{
-    width: 70px;
-    height: 70px;
-    position: fixed;
-    left: 4%;
-    top: 16%;
+  
+    height: 77px;
+    position: relative;
+    left: 17%;
+    top: 1%;
 }
+.circle{
+
+    width: 105px;
+    height: 105px;
+    background-color: white;
+    border-radius: 50%;
+    position: relative;
+    left: 14%;
+    top: 20%;
+}
+
+.name{
+    position: relative;
+    left: -20%;
+    top: 33%;
+}
+.money
+{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    color: cadetblue;
+    position: relative;
+    left: -20%;
+    top: 9%;
+}
+.menu {
+    position: relative;
+    top: 20%;
+    list-style-type: none; /* Remove bullet points */
+}
+
+.menu li {
+    text-decoration: none;
+    font-size: 22px;
+    margin-top: 20px;
+}
+
