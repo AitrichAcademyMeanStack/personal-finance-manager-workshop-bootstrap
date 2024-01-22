@@ -60,7 +60,33 @@
 
 .menu li {
     text-decoration: none;
-    font-size: 22px;
+    font-size: 19px;
     margin-top: 20px;
+    color: dimgrey;
+}
+
+.menuimg{
+   width: 30px;
+   height: 30px;
+   margin-right: 15px; 
+}
+.chartbox{width: 68%;
+    height: 59%;
+    background-color: white;
+    position: relative;
+    top: 32%;
+    left: 20px;}
+.contentbox{
+    width: 100%;
+    height:75%;
+    
+}
+.transactionbox{
+       width:200px;
+        height:48%;
+        background-color: white;
+        position: relative;
+        top: 32%;
+        left:50px;
 }
 
