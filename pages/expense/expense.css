@@ -79,7 +79,7 @@ input, textarea, select{
 }
 
 button {
-  /* outline: none;
+  outline: none;
     border: none;
     font-family: inherit;
     font-size: inherit;
@@ -88,13 +88,12 @@ button {
     gap: .5rem;
     cursor: pointer;
     transition: all .4s ease-in-out;
-    padding: .8rem 1.6rem;*/
+    padding: .8rem 1.6rem;
     border-radius: 30px; 
     
 }
 .submit-btn button {
             box-shadow: 0px 1px 15px rgba(0, 0, 0, 0.06);
-            border-radius: 30px;
             
         }
 .submit-btn:hover{
@@ -103,8 +102,6 @@ button {
 }
 .btn-danger {
 --bs-border-radius: 20px;
---bs-btn-bg: #F56692;
---bs-btn-border-color: #F56692;
---bs-btn-hover-bg: #F56692;
---bs-btn-hover-border-color: #F56692;
+--bs-btn-bg: #F56692 !important;
+--bs-btn-border-color:  #F56692 !important;
 }
