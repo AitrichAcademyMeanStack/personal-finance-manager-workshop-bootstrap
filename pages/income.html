@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Finance Manager</title>
+    <link rel="stylesheet" href="expense.css">
+    <link href="../../assets/css/style.css" rel="stylesheet" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <style>
+    body {
+  font-family: "Nunito", sans-serif;
+  font-size: clamp(1rem, 1.5vw, 1.2rem);
+  color: rgba(34, 34, 96, 0.6);
+  height: 100vh;
+  background-image: url('../../assets/images/bg.png');
+  position: relative;
+
+  
+}
+
+section {
+    padding: 2rem 1.5rem;
+    width: 100%;
+    flex: 1;
+    background: rgba(252, 246, 249, 0.78);
+    border: 3px solid #FFFFFF;
+    backdrop-filter: blur(4.5px);
+    border-radius: 32px;
+    overflow-x: hidden;
+    &::-webkit-scrollbar{
+      width: 0;
+    }
+}
+
+    </style>
+</head>
+<body>
+    <div class="container-fluid full">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="sidebar">
+                   <div class="row ">
+                       <div class="col-6">
+                          <div class="circle">
+                              <img src="../../assets/images/avatar.png" class="avtr">
+                            </div>
+                        </div>
+                            <div class=" col-6 "><h2 class="name">Jack</h2><br>
+                                <p class="money">your money</p>
+                            </div>
+                           </div>
+                           <div class="row">
+                            <ul class="menu">
+                               <li><img src="../../assets/images/dashboard.png"class="menuimg">Dashboard</li>
+                               <li><img src="../../assets/images/income.png" class="menuimg">Income</li>
+                               <li><img src="../../assets/images/accounting.png" class="menuimg">Expense</li>
+                            </ul>
+                        </div>
+                       </div>
+                   </div>    
+            <div class="col-md-9" >
+                <div class="content">
+                    <section class="expense">
+                        <h1>Income</h1>
+                        <h2 class="total-expense">Total Expenses: <span>$0</span></h2>
+                        <div class="form">
+                            <form>
+                                <div class="mb-3">
+                                    <input type="text" class="input-control" placeholder="Expense Title"><br>
+                                </div>
+                                <div class="mb-3">
+                                    <input type="text" class="input-control" placeholder="Expense Amount"><br>
+                                </div>
+                                <div class="mb-3">
+                                    <input type="date" class="input-control"  placeholder="Enter a Date"><br>
+                                </div>
+                                <div class="mb-3">
+                                    <select required class="selects input-control">
+                                        <option value="" disabled >Select Option</option>
+                                        <option value="education">Education</option>
+                                        <option value="groceries">Groceries</option>
+                                        <option value="health">Health</option>
+                                        <option value="subscriptions">Subscriptions</option>
+                                        <option value="takeaways">Takeaways</option>
+                                        <option value="clothing">Clothing</option>  
+                                        <option value="travelling">Travelling</option>  
+                                        <option value="other">Other</option>  
+                                    </select>
+                                </div>
+                                <div class="mb-3">
+                                    <textarea class="input-control" name="" id="" cols="30" rows="4" placeholder="Add A Reference"></textarea><br>
+                                </div>
+                                <button class="btn btn-danger submit-btn" type="submit"> + Add Expense</button><br>
+                            </form>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+</html>
