@@ -1,93 +1,87 @@
-
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="./assets/css/style.css" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
-    <title>Your Page Title</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./assets/css/style.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+  <title>BOOTSTRAP</title>
 </head>
+
 <body>
 
-<div class="container-fluid full">
+  <div class="container-fluid">
     <div class="row">
-        <div class="col-3">
-            <div class="sidebar">
-               <div class="row ">
-                   <div class="col-6">
-                      <div class="circle">
-                          <img src="./assets/images/avatar.png" class="avtr">
-                        </div>
-                    </div>
-                        <div class=" col-6 "><h2 class="name">Jack</h2><br>
-                            <p class="money">your money</p>
-                        </div>
-                       </div>
-                       <div class="row">
-                     
-
-                        <ul class="menu">
-                          <li><a href="./index.html"><img src="./assets/images/dashboard.png" class="menuimg">Dashboard</a></li>
-                          <li><a href="./pages/income.html"><img src="./assets/images/income.png" class="menuimg">Income</a></li>
-                          <li><a href="./pages/expense/expense.html"><img src="./assets/images/accounting.png" class="menuimg">Expense</a></li>
-                      </ul>
-                      
-                    </div>
-                   </div>
-               </div>   
-               
-  
-        <div class="col-9" >
-          
-                <div class="row contentbox">
-                    <h2 class="chartboxhead">All transaction</h2>
-                        <div class="col-6 chartbox"><img src="./assets/images/graph2.png" class="chartimage"></div>
-                            <div class="col-3 transactionbox">
-                             </div> 
-                           
-                         </div>
-                 <div class="row account">
-                  <div class="col-3 mt-5 pt-2 ml-lg-5">
-                    <div class="card text-center">
-                      <div class="card-body">
-                        <h4 class="card-title">Total Expense</h4>
-                        <p class="card-text">$-Infinity</p>
-                      </div>
-                    </div>
-                  </div>
-               
-                <div class="col-3 pt-2 mt-5 ml-lg-5">
-                  <div class="card text-center">
-                    <div class="card-body">
-                      <h4 class="card-title">Balance</h4>
-                      <p class="card-text">$-Infinity</p>
-                    </div>
-                  </div>
-                </div>
-            
-              <div class="col-3 pt-2 mt-5 ml-lg-5">
-                <div class="card text-center">
-                  <div class="card-body">
-                    <h4 class="card-title">Total income</h4>
-                    <p class="card-text">$-Infinity</p>
-                  </div>
-                </div>
+      <div class="col-md-3">
+        <div class="sidebar">
+          <div class="row">
+            <div class="col-6">
+              <div class="circle">
+                <img src="./assets/images/avatar.png" class="avtr">
               </div>
             </div>
-          
-                 
-                 </div>
+            <div class="col-6">
+              <h2 class="name">Jack</h2><br>
+              <p class="money">your money</p>
+            </div>
+          </div>
 
-                      </div>
-                    </div>
-</div>
+          <div class="row">
+            <div class="col-12">
+              <ul class="menu">
+                <li><a href="./index.html"><img src="./assets/images/dashboard.png" class="menuimg">Dashboard</a></li>
+                <li><a href="./pages/income.html"><img src="./assets/images/income.png" class="menuimg">Income</a></li>
+                <li><a href="./pages/expense/expense.html"><img src="./assets/images/accounting.png"
+                      class="menuimg">Expense</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-9">
+        <div class="contentbox">
+          <div class="row">
+            <h2 class="chartboxhead">All transaction</h2>
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="chartbox">
+                <img src="./assets/images/graph2.png" class="chartimage">
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="card-body1">
+                <h2 class="card-title">Total Balance</h2>
+                <h1 class="card-text1">$1000</h1>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-4">
+              <div class="card-body2">
+                <h2>Total Income</h2>
+                <h1 class="card-text2">$1000</h1>
+              </div>
+            </div>
+            <div class="col-md-8">
+              <div class="card-body2">
+                <h2>Total Expense</h2>
+                <h1 class="card-text3">$1000</h1>
+              </div>
+            </div>
+          </div>
 
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.8/dist/umd/popper.min.js"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.8/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
 </body>
-</html>
 
+</html>
